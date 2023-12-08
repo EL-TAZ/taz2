@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <menta charset ="UTF_8">
+        <meta http-equiv="X-UA-Comparble" content="IE=edge">
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <title>ForceIQ</title>
+        <link rel="Stylesheet" href="diseño.css">
+        <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+        
+    </head>
+    <body >
+        <header class="header">
+            <div class="menu container">
+                <div class="navbar">
+                    <ul>                    
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="informacion.html">Informaci&oacute;n</a></li>
+                    <li><a href="ayuda.html">ayuda</a></li>
+                    
+                </ul>
+                </div>
+            </div>
+            <div class="header-content container">
+                <header class="header">
+                    <div class="header-content container">
+                        <section class = "header-txt">
+                            <h1>ForceIQ</h1>
+                        </section>
+                    </div>
+                    <div class="header-img">
+                        <img src="inicio.gif" alt="">
+                    </div>
+                </header>
+            </div>
+        </header>
+        <main>
+            <div class="bot">
+                <h2 class="titulo"> &iquest;Qu&eacute; deseas saber?</h2>
+                <div class="botones">
+                    <a href="temperatura.html"><button>Temperatura corporal</button></a> 
+                    <a href="Cdelapagina.html"><button>Velocidad</button></a> 
+                    <a href="radiacion.html"><button>rendimiento</button></a> 
+                    
+                </div>
+
+            </div>
+        </main>
+        <div class="card">
+
+            <div class="card__date">
+              <span class="time">9:00</span>
+              <span class="date">Jue.,24 August</span>
+            </div>
+              <div class="popup">
+                  <p class="title">Notificaci&oacute;n</p>
+                  <p>Lindo dia :3</p>
+              </div>
+          
+          </div>
+    </body>
+    <style>
+       @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800;900 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bot{
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1100%;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 44%, rgba(2,2,51,1) 78%);
+     min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: rgb(70, 10, 235);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    width: 50%;
+}
+
+.header-txt h1{
+    line-height: 1;
+    color: beige;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.header-txt p{
+    font-size: 14px;
+    color:white;
+    margin-bottom: 45px;
+    margin: 30px;
+}
+
+.header-img{
+    width: 50%;
+    left: 100px;
+    right: 200px;
+}
+
+.about{
+    padding: 100px;
+    display: flex;
+}
+
+.about-img{
+    width: 70%;
+}
+
+.about-img img{
+    margin-left: 200px;
+    width: 300px;
+    border-radius: 100px;
+}
+
+.about-txt{
+    width: 100%;
+    margin-left: 70px;
+}
+
+.about-txt h2{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.about-txt p{
+    font-size: 20px;
+    color: grey;
+}
+
+/*redes sociales*/
+.box{
+    margin: 15px;
+    background: rgb(18, 1, 95);
+}
+
+.box h3{
+    text-align: center;
+    color: white;
+}
+
+.box .contenedordered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .contenedordered .boton a{
+    color: rgb(46, 0, 252);
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+.contenedordered .boton{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+    transition: all .3s ease-out;
+}
+
+.contenedordered .boton:hover{
+    width: 190px;
+}
+
+.contenedordered .boton .icono{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+
+.contenedordered .boton:nth-child(1):hover .icono{
+    background: rgb(44, 37, 105);
+    color: rgb(0, 0, 0);
+}
+
+.contenedordered .boton:nth-child(2):hover .icono{
+    background: linear-gradient(30deg,#3040e6 10%, #d41356,#e74f31,#f0ce6c);
+    color: rgb(0, 0, 0);
+}
+
+.contenedordered .boton i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.contenedordered .boton span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.titulo{
+    margin: 25px;
+    font-size: 50px;
+}
+
+/*Botones*/
+button {
+ --glow-color: rgb(188, 176, 255);
+ --glow-spread-color: rgba(125, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(207, 206, 255);
+ --btn-color: rgb(61, 69, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ margin: 25px;
+}
+
+.boton a{
+    --glow-color: rgb(188, 176, 255);
+ --glow-spread-color: rgba(125, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(207, 206, 255);
+ --btn-color: rgb(61, 69, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ margin: 25px;
+}
+
+button::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+button:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+/*TELEFONO*/
+.card {
+  width: 164px;
+  height: 276px;
+  background: rgb(0, 0, 0);
+  border: 3px solid rgb(17, 4, 94);
+  border-radius: 15px;
+  position: relative;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  transition: all 1s ease;
+  color: antiquewhite;
+  margin: 30px 650px;
+}
+
+.card::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 77px;
+  border-radius: 50%;
+  background-color: rgb(17, 4, 94);
+}
+
+.card__date {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.time {
+  font-size: 2em;
+}
+
+.popup {
+  background-color: #444746;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: .8em;
+  padding: 3px;
+}
+
+.popup .title {
+  font-size: 9px;
+  color: #9cbde2;
+}
+
+.card__date , .popup {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 10px #289FED;
+}
+
+.card:hover .card__date , .card:hover .popup {
+  opacity: 1;
+}
+
+    </style>
+</html>
